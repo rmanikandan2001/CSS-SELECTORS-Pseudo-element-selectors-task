@@ -1,0 +1,23 @@
+p::first-line{
+	color:red;
+}
+
+p::first-letter{
+	color:yellow;
+}
+
+h1::before{
+	content:url("images/sea.jpg")
+}
+
+h1::after{
+	content:url("images/sea.jpg")
+}
+
+::marker{
+	color:blue;
+}
+
+::selection{
+	color:red;
+}
